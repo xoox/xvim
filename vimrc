@@ -9,8 +9,12 @@ set nobackup
 set noundofile
 set mouse=
 
+" ============================================================================
+" VIM-PLUG BLOCK {{{
+" ============================================================================
 " Specify a directory for plugins
-call plug#begin('$HOME/.vim/plugged')
+" silent! if plug#begin('$HOME/.vim/plugged')
+if plug#begin('$HOME/.vim/plugged')
 " For Windows
 " call plug#begin('$VIM/plugged')
 
@@ -21,13 +25,16 @@ call plug#begin('$HOME/.vim/plugged')
 " SetStyle( 'Doxygen' ) and IncludeFile( 'doxygen.template' )
 Plug 'WolfgangMehner/c-support', {'for': ['c', 'cpp']}
 Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
-Plug 'Valloric/YouCompleteMe', {'for': ['c', 'cpp']}
+
+Plug 'Valloric/YouCompleteMe'
 
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'vim-pandoc/vim-pandoc'
 
 " Initialize plugin system
 call plug#end()
+endif
+" }}}
 
 set background=dark
 set shiftwidth=4
