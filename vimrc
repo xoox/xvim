@@ -25,8 +25,9 @@ if plug#begin('$HOME/.vim/plugged')
 " SetStyle( 'Doxygen' ) and IncludeFile( 'doxygen.template' )
 Plug 'WolfgangMehner/c-support', {'for': ['c', 'cpp']}
 Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
-
-Plug 'Valloric/YouCompleteMe'
+if !(has('win32') || has('win64'))
+    Plug 'Valloric/YouCompleteMe'
+endif
 
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'vim-pandoc/vim-pandoc'
