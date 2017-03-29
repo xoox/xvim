@@ -37,6 +37,11 @@ call plug#end()
 endif
 " }}}
 
+let g:pandoc#formatting#mode = "h"
+let g:pandoc#formatting#textwidth = 72
+let g:pandoc#folding#level = 10
+let g:pandoc#modules#disabled = ["formatting"]
+
 set textwidth=72
 set background=dark
 set shiftwidth=4
