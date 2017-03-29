@@ -42,6 +42,8 @@ let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
 let g:pandoc#modules#disabled = ["formatting"]
 
+autocmd FileType gitcommit :setlocal spell
+
 set textwidth=72
 set background=dark
 set shiftwidth=4
