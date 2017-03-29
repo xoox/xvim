@@ -37,12 +37,13 @@ call plug#end()
 endif
 " }}}
 
+set textwidth=72
 set background=dark
 set shiftwidth=4
 set softtabstop=4
 set expandtab
 set smarttab
-set fo+=mB
+set fo+=nmB
 :map <Up> gk
 :map <Down> gj
 :map <Home> g^
