@@ -40,6 +40,8 @@ let g:pandoc#formatting#mode = "h"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
 let g:pandoc#modules#disabled = ["formatting"]
+" Shift key is more accessible than Ctrl
+let g:ycm_key_invoke_completion = '<S-Space>'
 
 autocmd FileType gitcommit setlocal spell
 
