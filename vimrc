@@ -36,12 +36,20 @@ call plug#end()
 endif
 " }}}
 
+let g:pandoc#formatting#mode = "h"
+let g:pandoc#formatting#textwidth = 72
+let g:pandoc#folding#level = 10
+let g:pandoc#modules#disabled = ["formatting"]
+
+autocmd FileType gitcommit :setlocal spell
+
+set textwidth=72
 set background=dark
 set shiftwidth=4
 set softtabstop=4
 set expandtab
 set smarttab
-set fo+=mB
+set fo+=nmB
 :map <Up> gk
 :map <Down> gj
 :map <Home> g^
