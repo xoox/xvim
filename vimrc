@@ -27,6 +27,8 @@ Plug 'WolfgangMehner/c-support', {'for': ['c', 'cpp']}
 Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
 
 Plug 'Valloric/YouCompleteMe'
+Plug 'sirver/ultisnips'
+Plug 'honza/vim-snippets'
 
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'vim-pandoc/vim-pandoc'
@@ -36,6 +38,8 @@ call plug#end()
 endif
 " }}}
 
+let g:UltiSnipsListSnippets = "<C-S-Tab>" " Use this trick to disable it?
+let g:UltiSnipsExpandTrigger = "<c-tab>"
 let g:pandoc#formatting#mode = "h"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
