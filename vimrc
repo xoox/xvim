@@ -39,13 +39,11 @@ endif
 " }}}
 
 let g:UltiSnipsListSnippets = "<C-S-Tab>" " Use this trick to disable it?
-let g:UltiSnipsExpandTrigger = "<c-tab>"
+let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
 let g:pandoc#formatting#mode = "h"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
 let g:pandoc#modules#disabled = ["formatting"]
-" Shift key is more accessible than Ctrl
-let g:ycm_key_invoke_completion = '<S-Space>'
 
 autocmd FileType gitcommit setlocal spell
 
