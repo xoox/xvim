@@ -38,6 +38,7 @@ call plug#end()
 endif
 " }}}
 
+let g:ycm_python_binary_path = 'python3'
 let g:UltiSnipsListSnippets = "<C-S-Tab>" " Use this trick to disable it?
 let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
 let g:pandoc#formatting#mode = "h"
