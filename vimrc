@@ -25,6 +25,8 @@ if plug#begin('$HOME/.vim/plugged')
 " SetStyle( 'Doxygen' ) and IncludeFile( 'doxygen.template' )
 Plug 'WolfgangMehner/c-support', {'for': ['c', 'cpp']}
 Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
+" Python format
+Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 
 Plug 'Valloric/YouCompleteMe'
 Plug 'sirver/ultisnips'
