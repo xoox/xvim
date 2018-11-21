@@ -43,10 +43,9 @@ endif
 let g:ycm_python_binary_path = 'python3'
 let g:UltiSnipsListSnippets = "<C-S-Tab>" " Use this trick to disable it?
 let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
-let g:pandoc#formatting#mode = "h"
+let g:pandoc#formatting#mode = "ha"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
-let g:pandoc#modules#disabled = ["formatting"]
 
 autocmd FileType gitcommit setlocal spell
 
