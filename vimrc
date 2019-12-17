@@ -34,7 +34,7 @@ Plug 'honza/vim-snippets'
 Plug 'editorconfig/editorconfig-vim'
 
 Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'vim-pandoc/vim-pandoc'
+Plug 'xoox/vim-pandoc', { 'branch': 'multi-byte' }
 
 " Initialize plugin system
 call plug#end()
