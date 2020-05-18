@@ -36,6 +36,8 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'xoox/vim-pandoc', { 'branch': 'multi-byte' }
 
+Plug 'editorconfig/editorconfig-vim'
+
 " Initialize plugin system
 call plug#end()
 endif
