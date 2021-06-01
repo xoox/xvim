@@ -28,10 +28,13 @@ Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
 " Python format
 Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 
-Plug 'Valloric/YouCompleteMe'
+Plug 'dart-lang/dart-vim-plugin'
+
+Plug 'natebosch/vim-lsc'
+Plug 'natebosch/vim-lsc-dart'
+
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'editorconfig/editorconfig-vim'
 
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'xoox/vim-pandoc', { 'branch': 'multi-byte' }
@@ -48,6 +51,7 @@ let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
 let g:pandoc#formatting#mode = "h"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
+let g:lsc_auto_map = v:true
 
 autocmd FileType gitcommit setlocal spell
 
