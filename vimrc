@@ -30,8 +30,7 @@ Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 
 Plug 'dart-lang/dart-vim-plugin'
 
-Plug 'natebosch/vim-lsc'
-Plug 'natebosch/vim-lsc-dart'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
@@ -51,7 +50,6 @@ let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
 let g:pandoc#formatting#mode = "h"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
-let g:lsc_auto_map = v:true
 
 autocmd FileType gitcommit setlocal spell
 
