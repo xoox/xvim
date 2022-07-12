@@ -50,6 +50,8 @@ let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
 let g:pandoc#formatting#mode = "h"
 let g:pandoc#formatting#textwidth = 72
 let g:pandoc#folding#level = 10
+" Use <Tab> to navigate the completion list
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
 
 autocmd FileType gitcommit setlocal spell
 
