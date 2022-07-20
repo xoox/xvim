@@ -9,4 +9,4 @@ set mouse=a
 set lines=48
 set guifont=Monospace\ 16
 " For Windows
-" set guifont=Consolas:h16
+" set guifont=Cascadia_Code:h16
