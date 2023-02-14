@@ -1,0 +1,10 @@
+{
+  "python.linting.ruffEnabled": true,
+  "python.formatting.provider": "yapf",
+  "languageserver": {
+    "ruff-lsp": {
+      "command": "ruff-lsp",
+      "filetypes": ["python"]
+    }
+  }
+}
