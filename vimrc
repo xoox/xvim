@@ -32,9 +32,6 @@ Plug 'dart-lang/dart-vim-plugin'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'sirver/ultisnips'
-Plug 'honza/vim-snippets'
-
 Plug 'vim-pandoc/vim-pandoc-syntax'
 Plug 'xoox/vim-pandoc', { 'branch': 'multi-byte' }
 
