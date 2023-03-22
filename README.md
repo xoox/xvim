@@ -21,4 +21,5 @@ cd
 git clone https://github.com/xoox/xvim.git
 ln -sf xvim/vimrc .vimrc
 ln -sf xvim/gvimrc .gvimrc
+ln -sf xvim/ninit.vim .config/nvim/init.vim
 ```
