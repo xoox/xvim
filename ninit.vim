@@ -82,7 +82,7 @@ nmap <silent> gr <Plug>(coc-references)
 " Fix for codeium
 let g:codeium_no_map_tab = 1
 imap <script><silent><nowait><expr> <F9> codeium#Accept()
-set statusline+=%3{codeium#GetStatusString()}
+set statusline=%f\ %h%w%m%r\ %3{codeium#GetStatusString()}\ %=%(%l,%c%V\ %=\ %P%)
 
 set textwidth=72
 set background=dark
