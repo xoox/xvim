@@ -96,3 +96,5 @@ set fo+=nmB
 set fileencodings=utf-8,prc,big5,unicode
 set go-=r
 set go+=l
+:colo torte
+set termguicolors
