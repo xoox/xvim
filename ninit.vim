@@ -16,7 +16,6 @@ set nocompatible
 set nobackup
 set noundofile
 set mouse=
-:hi Visual cterm=reverse
 " ============================================================================
 " VIM-PLUG BLOCK {{{
 " ============================================================================
