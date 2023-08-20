@@ -28,8 +28,6 @@ Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
 " Python format
 Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 
-Plug 'dart-lang/dart-vim-plugin'
-
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'vim-pandoc/vim-pandoc-syntax'
