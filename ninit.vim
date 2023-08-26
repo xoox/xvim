@@ -36,9 +36,6 @@ Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'Exafunction/codeium.vim'
 
-"Plug 'vim-pandoc/vim-pandoc-syntax'
-"Plug 'xoox/vim-pandoc', { 'branch': 'multi-byte' }
-
 "Plug 'editorconfig/editorconfig-vim'
 
 " Initialize plugin system

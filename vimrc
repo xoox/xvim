@@ -30,9 +30,6 @@ Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-Plug 'vim-pandoc/vim-pandoc-syntax'
-Plug 'xoox/vim-pandoc', { 'branch': 'multi-byte' }
-
 Plug 'editorconfig/editorconfig-vim'
 
 " Initialize plugin system
@@ -42,9 +39,6 @@ endif
 
 let g:UltiSnipsListSnippets = "<C-S-Tab>" " Use this trick to disable it?
 let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
-let g:pandoc#formatting#mode = "h"
-let g:pandoc#formatting#textwidth = 72
-let g:pandoc#folding#level = 10
 
 " Use tab for trigger completion with characters ahead and navigate
 " NOTE: There's always complete item selected by default, you may want to enable
