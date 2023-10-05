@@ -37,9 +37,6 @@ call plug#end()
 endif
 " }}}
 
-let g:UltiSnipsListSnippets = "<C-S-Tab>" " Use this trick to disable it?
-let g:UltiSnipsExpandTrigger = "<c-tab>" " Can't be used in console Vim
-
 " Use tab for trigger completion with characters ahead and navigate
 " NOTE: There's always complete item selected by default, you may want to enable
 " no select by `"suggest.noselect": true` in your configuration file
