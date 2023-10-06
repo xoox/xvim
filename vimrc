@@ -29,6 +29,7 @@ Plug 'rhysd/vim-clang-format', {'for': ['c', 'cpp']}
 Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'Exafunction/codeium.vim', {'branch': 'main'}
 
 Plug 'editorconfig/editorconfig-vim'
 
@@ -182,6 +183,12 @@ nnoremap <silent><nowait> <space>j  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
+
+" Fix for codeium
+" let g:codeium_no_map_tab = 1
+" imap <script><silent><nowait><expr> <F9> codeium#Accept()
+" set statusline=%f\ %h%w%m%r\ %3{codeium#GetStatusString()}\ %=%(%l,%c%V\ %=\ %P%)
+" set laststatus=2
 
 autocmd FileType gitcommit setlocal spell
 
