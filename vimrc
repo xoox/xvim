@@ -33,6 +33,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 Plug 'editorconfig/editorconfig-vim'
 
+Plug 'guns/vim-sexp',    {'for': 'clojure'}
+Plug 'liquidz/vim-iced', {'for': 'clojure'}
+
 " Initialize plugin system
 call plug#end()
 endif
