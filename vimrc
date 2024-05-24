@@ -194,6 +194,10 @@ let g:iced_enable_default_key_mappings = v:true
 " Fix for codeium
 " let g:codeium_no_map_tab = 1
 " imap <script><silent><nowait><expr> <F9> codeium#Accept()
+" " Map Alt-] to <M-]>
+" imap <Esc>] <Cmd>call codeium#CycleCompletions(1)<CR>
+" " Map Alt-[ to <M-[>
+" imap <Esc>[ <Cmd>call codeium#CycleCompletions(-1)<CR>
 " set statusline=%f\ %h%w%m%r\ %3{codeium#GetStatusString()}\ %=%(%l,%c%V\ %=\ %P%)
 " set laststatus=2
 
