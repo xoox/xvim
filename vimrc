@@ -187,6 +187,10 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
+" Enable vim-iced's default key mapping
+" This is recommended for newbies
+let g:iced_enable_default_key_mappings = v:true
+
 " Fix for codeium
 " let g:codeium_no_map_tab = 1
 " imap <script><silent><nowait><expr> <F9> codeium#Accept()
