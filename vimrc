@@ -15,7 +15,6 @@ call plug#begin()
 
 " Make sure you use single quotes
 
-Plug 'editorconfig/editorconfig-vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 "Plug 'google/yapf', { 'rtp': 'plugins/vim', 'for': 'python' }
