@@ -38,13 +38,10 @@ let g:iced_enable_default_key_mappings = v:true
 
 " Fix for codeium
 let g:codeium_no_map_tab = 1
-"imap <script><silent><nowait><expr> <F9> codeium#Accept()
-" Map Alt-] to <M-]>
-"imap <Esc>] <Cmd>call codeium#CycleCompletions(1)<CR>
-" Map Alt-[ to <M-[>
-"imap <Esc>[ <Cmd>call codeium#CycleCompletions(-1)<CR>
-"set statusline=%f\ %h%w%m%r\ %3{codeium#GetStatusString()}\ %=%(%l,%c%V\ %=\ %P%)
-"set laststatus=2
+"imap <script><silent><nowait><expr> <F12> codeium#Accept()
+"imap <F11> <Cmd>call codeium#CycleCompletions(1)<CR>
+"imap <F10> <Cmd>call codeium#CycleCompletions(-1)<CR>
+"set rulerformat=%21(%3{codeium#GetStatusString()}\ %l,%c%V\ %P%)
 
 autocmd FileType gitcommit setlocal spell
 
