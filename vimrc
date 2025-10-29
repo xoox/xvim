@@ -49,6 +49,8 @@ set nobackup
 set noundofile
 set mouse=
 
+set fileformat=unix
+set fileformats=unix,dos
 set background=dark
 set shiftwidth=4
 set softtabstop=4
